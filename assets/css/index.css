@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+:root {
+    --font-family: "Inter", serif;
+    --font-family-text: "IBM Plex Sans", serif;
+    --font-family-titel: "Open Sans", serif;
+    --primary-color: #000E01;
+    --secondry-color: #443434;
+    --border-color: #618264;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+
+}
+/* steep 1 */
+.section-navber {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25rem;
+
+}
+/* steep 2 */
+.section-page {
+    display: flex;
+    gap: 10rem;
+    list-style: none;
+    font-size: 2rem;
+    color: #000E01;
+
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+/* steep 3 */
+.section-but {
+    width: 13rem;
+    height: 4rem;
+    border-radius:2rem ;
+    color: azure;
+    background-color: #618264;
+    
+    
+
+    
+}
