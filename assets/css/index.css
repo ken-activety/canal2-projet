@@ -24,25 +24,28 @@ html {
 body {
     width: 100vw;
     height: 100vh;
+    /* margin:1.5rem 3.5rem; */
     overflow-x: hidden;
 
 
 }
+
 /* steep 1 */
 .section-navber {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25rem;
+    gap: 18rem;
 
 }
+
 /* steep 2 */
 .section-page {
     display: flex;
-    gap: 10rem;
+    gap: 12rem;
     list-style: none;
-    font-size: 2rem;
+    font-size: 24PX;
     color: #000E01;
 
 }
@@ -52,15 +55,83 @@ body {
     list-style: none;
     text-decoration: none;
 }
+
 /* steep 3 */
 .section-but {
     width: 13rem;
     height: 4rem;
-    border-radius:2rem ;
+    border-radius: 2rem;
     color: azure;
     background-color: #618264;
-    
-    
+}
 
+/* steep-main */
+.section-main {
+    display: flex;
+    gap: 3rem;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.section-contain {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+
+.monday-morning {
+     width: 1.3rem;
+     height: 4rem; 
+    background-color: var(--border-color) */
     
+}
+
+.section-years {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 4rem;
+}
+
+/* the third section */
+.third-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}
+
+.section-text p {
+    color: #79AC78;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.section-text {
+    color: #000E01;
+    font-size: 1.2rem;
+}
+
+/* the fourth-section */
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    color: #000E01;
+    font-size: 3rem;
+    --font-family-text: var(--font-family-text)
+}
+
+/* the last-section */
+.last-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    border-radius: 4rem;
+
 }
