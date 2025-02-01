@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
@@ -9,9 +7,9 @@
 }
 
 :root {
-    --font-family: "Inter", serif;
-    --font-family-text: "IBM Plex Sans", serif;
-    --font-family-titel: "Open Sans", serif;
+    --font-family: 'Inter', serif;
+    --font-family-text: 'IBM Plex Sans', serif;
+    --font-family-titel: 'Open Sans', serif;
     --primary-color: #000E01;
     --secondry-color: #443434;
     --border-color: #618264;
@@ -24,45 +22,44 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    /* margin:1.5rem 3.5rem; */
     overflow-x: hidden;
 
 
 }
 
 /* steep 1 */
-.section-navber {
+ .section-navber {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18rem;
+    gap: 18rem; 
 
 }
 
 /* steep 2 */
-.section-page {
+ .section-page {
     display: flex;
     gap: 12rem;
     list-style: none;
     font-size: 24PX;
-    color: #000E01;
+    color: #000E01; 
 
 }
 
 .links {
-    display: flex;
+     display: flex;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 /* steep 3 */
-.section-but {
+ .section-but {
     width: 13rem;
     height: 4rem;
     border-radius: 2rem;
     color: azure;
-    background-color: #618264;
+    background-color: #618264; 
 }
 
 /* steep-main */
@@ -74,32 +71,58 @@ body {
 .main {
     display: flex;
     flex: 1;
+    margin-left: 2rem;
 }
 
 .section-contain {
     display: flex;
-    flex: 2;
+    flex: 1;
     flex-direction: column;
-    background-color: aquamarine;
+    justify-content: space-evenly;
+    
 }
 
+.section-day {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
 
 .monday-morning {
-     width: 1.3rem;
-     height: 4rem; 
-    background-color: var(--border-color) */
-    
+    width: 1.3rem;
+    height: 3.3rem;
+    background-color: var(--border-color);
+}
+
+.section-day>h4 {
+    font-family: var(--font-family-text);
+    padding-top: 2px;
 }
 
 .section-years {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    padding-top: 4rem;
+
+}
+
+.section-month {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.section-month>p {
+    font-family: var(--font-family);
+}
+
+.section-month>h3 {
+    font-family: var(--font-family-text);
 }
 
 /* the third section */
-.third-section {
+ .third-section {
     display: flex;
     justify-content: space-evenly;
     padding-top: 4rem;
@@ -113,17 +136,17 @@ body {
 
 .section-text {
     color: #000E01;
-    font-size: 1.2rem;
+    font-size: 1.2rem; 
 }
 
 /* the fourth-section */
-.fourth-section {
+ .fourth-section {
     display: flex;
     justify-content: center;
     padding-top: 4rem;
     color: #000E01;
     font-size: 3rem;
-    --font-family-text: var(--font-family-text)
+    --font-family-text: var(--font-family-text) */
 }
 
 /* the last-section */
@@ -132,6 +155,6 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
-    border-radius: 4rem;
+    border-radius: 4rem; 
 
 }
