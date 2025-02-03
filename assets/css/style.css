@@ -1,45 +1,66 @@
-@media screen and (width<431px){
-
-    .section-navder {
-        display: block;
-        background-color: blue;
-
+@media screen and (width<431px) {
+    .body {
+        overflow-x: hidden;
     }
-    .section-navder .menu {
+
+    .section-page {
         display: none;
     }
-    
-/* 
+
+    .section-but {
+        display: none;
+    }
+    .section-navber > .menu {
+        width: 45px;
+        height: 45px;
+        /* padding-top: 20px;
+        padding-left: 120px; */
+        display: inline;
+    }
+
+    .logo {
+        width: 87px;
+        height: 66px;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+
     .section-main {
         display: flex;
         flex-direction: column;
-        margin-left: 12rem;
-        width: 430px;
-        
+    }
+
+    .many {
+        width: 25rem;
+        height: 20rem;
+        background-color: brown;
+        position: relative;
 
     }
-    .main {
-        display: flex;
-        background-color: blueviolet;
-                           
+    .welcome-to {
+        position: absolute;
+        padding-top:13rem ;
+        /* background-color: blue; */
+               
+    }
+    .hello-how {
+        width: 10px;
+        height: 67px;
+    }
+    .te{
+        /* display: flex;
+        flex-direction: column; */
+        gap: 1rem;
+    }
+    .te h2 {
+        font-size: 18px;
+    }
+    .te p {
+        font-size: 11px;
+    }
 
-    }
-    .section-contain {
-        display: flex;
-        flex-direction: column;
-    }
-    .section-year{
-        width: 44%;
-        display: flex;
-         gap: 3rem;
-        align-items:center;
-        
-    }
-    .first-year {
-        width:38%;
-    }
-    .section-month {
-        font-size: large; */
-    }
+
+
+
+
 }
-    
