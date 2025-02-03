@@ -28,38 +28,38 @@ body {
 }
 
 /* steep 1 */
- .section-navber {
+.section-navber {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18rem; 
+    gap: 16rem;
 
 }
 
 /* steep 2 */
- .section-page {
+.section-page {
     display: flex;
-    gap: 12rem;
+    gap: 8rem;
     list-style: none;
-    font-size: 24PX;
-    color: #000E01; 
+    font-size: 18PX;
+    color: #000E01;
 
 }
 
 .links {
-     display: flex;
+    display: flex;
     list-style: none;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 /* steep 3 */
- .section-but {
+.section-but {
     width: 13rem;
     height: 4rem;
     border-radius: 2rem;
     color: azure;
-    background-color: #618264; 
+    background-color: #618264;
 }
 
 /* steep-main */
@@ -71,7 +71,39 @@ body {
 .main {
     display: flex;
     flex: 1;
-    margin-left: 2rem;
+    margin-left: 7rem;
+    position: relative;
+}
+
+.welcome-to {
+    display: flex;
+    position: absolute;
+    padding-top: 420px;
+    gap: 2rem;
+    padding-left: 40px;
+    font-family: var(--font-family-text);
+}
+
+.welcome-to h2 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.te {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-to p {
+    font-size: 14px;
+    padding-top: 2rem;
+    color: #ffffff;
+}
+
+.hello-how {
+    width: 1.3rem;
+    height: 110PX;
+    background-color: var(--border-color);
 }
 
 .section-contain {
@@ -79,7 +111,7 @@ body {
     flex: 1;
     flex-direction: column;
     justify-content: space-evenly;
-    
+
 }
 
 .section-day {
@@ -122,31 +154,38 @@ body {
 }
 
 /* the third section */
- .third-section {
+.third-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 4rem;
+    gap: 10rem;
 }
 
 .section-text p {
     color: #79AC78;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-family: var(--font-family);
+}
+
+.section-text h2 {
+    font-family: var(--font-family-text);
+    font-size: 18.1px;
 }
 
 .section-text {
     color: #000E01;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
 }
 
 /* the fourth-section */
- .fourth-section {
+.fourth-section {
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 5rem;
     color: #000E01;
-    font-size: 3rem;
-    --font-family-text: var(--font-family-text) */
+    font-size: 48px;
+    font-family: var(--font-family-text)
 }
 
 /* the last-section */
@@ -155,6 +194,6 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
-    border-radius: 4rem; 
+    border-radius: 4rem;
 
 }

@@ -1,0 +1,45 @@
+@media screen and (width<431px){
+
+    .section-navder {
+        display: block;
+        background-color: blue;
+
+    }
+    .section-navder .menu {
+        display: none;
+    }
+    
+/* 
+    .section-main {
+        display: flex;
+        flex-direction: column;
+        margin-left: 12rem;
+        width: 430px;
+        
+
+    }
+    .main {
+        display: flex;
+        background-color: blueviolet;
+                           
+
+    }
+    .section-contain {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-year{
+        width: 44%;
+        display: flex;
+         gap: 3rem;
+        align-items:center;
+        
+    }
+    .first-year {
+        width:38%;
+    }
+    .section-month {
+        font-size: large; */
+    }
+}
+    
